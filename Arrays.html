@@ -77,7 +77,6 @@
 								</p>
 								<img src="images/ArrayDiagram.png" width="40%" height="80%">
 							</div>
-							<section></section>
 							<div id="about-me">
 								<p>
 									<strong>Declaring and Initializing an Array</strong>
@@ -110,13 +109,53 @@
 									accessed, such as index 5 of an Array of 5
 									elements, an ArrayIndexOutOfBoundsException is thrown.
 								</p>
-								<p>
-									<strong>What is a 2D Array?</strong>
-									A 2D Array is an array of arrays. Each element in this data structure can be referred 
-									to by a row index and a column index. A 2D array which is of size 3 rows and 5 columns
-									can be seen on the right. This is a visual representation of how data is stored in a 2D 
-									array. 
-								</p>
+							</div>
+							<div>
+							<p>
+								<strong>What is a 2D Array?</strong>
+								<br>
+								A 2D Array is an array of arrays. Each element in this data structure can be referred
+								to by a row index and a column index. A 2D array which is of size 3 rows and 5 columns
+								can be seen on the right. This is a visual representation of how data is stored in a
+								2D array. 
+							</p>
+
+							<p>
+								<strong>Declaring and Initializing a 2D Array</strong>
+								<br>
+								The syntax to declaring a 2D array is as follows
+								<br>
+								<br>
+								<i>arrayDataType[][] arrayName;</i>
+								<br>
+								<i>arrayName = new arrayDataType[rowLength][columnLength];</i>
+								<br>
+								<br>
+								An array can also be initialized in one statement: arrayDataType[][] arrayName = new arrayDataType[rowLength][columnLength];
+								<br>
+								<br>
+								Alternatively, the data for the 2D array can be store in the array during its initialization. The following syntax can be used 
+								to do so:
+								<br>
+								<br>
+								<i>arrayDataType[][] arrayName ={ {Value1, Value2, Value3…}, {Value4, Value5, Value 6}...};</i>
+								<br>
+							</p>
+							<div id="sidePic">
+							<p>
+								Note that similar to 1D array, the size of a 2D array cannot be changed once it has been set. In addition, if no data is allocated 
+							    to element slots, default values are set which correspond to the dataType of the 2D array.
+								<br>
+								<br>
+								An example of such an initialization can be seen on the right:
+								<br>
+								Element positions are visualized as a grid system, and loops such as for each loops can be utilized to traverse through these grids.
+							</p>
+							<img src="images/2D Array.png" width="40%" height="auto">
+							</div>
+							<br>
+							</div>
+							</div>
 						</article>
 					</div>
 					<div class="col col-12-medium">
